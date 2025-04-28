@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/mseep-audited.png)](https://mseep.ai/app/cool-man-vk-google-meet-mcp-server)
+
 # Google Meet MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@cool-man-vk/google-meet-mcp-server)](https://smithery.ai/server/@cool-man-vk/google-meet-mcp-server)
