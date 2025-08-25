@@ -16,5 +16,9 @@ COPY . .
 ENV GOOGLE_MEET_CREDENTIALS_PATH=credentials.json
 ENV GOOGLE_MEET_TOKEN_PATH=token.json
 
+# Create a non-root user and switch to it
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+
 # Start the MCP server
 CMD ["node", "src/index.js"]
